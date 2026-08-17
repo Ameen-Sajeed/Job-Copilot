@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #4caf50; /* Green */
+    --secondary-color: #2196f3; /* Blue */
+    --accent-color: #ffeb3b; /* Yellow */
+    --background-color: #f5f5f5; /* Light Gray */
+    --text-color: #212121; /* Dark Gray */
+    --font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: var(--primary-color);
+  }
+  
+  a {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
